@@ -20,24 +20,24 @@ const Navbar = () => {
         <Link to="/" style={{ textDecoration: "none" }}>
           <span>Social App</span>
         </Link>
-        <HomeOutlinedIcon />
+        <HomeOutlinedIcon className="icon"/>
 
         {darkMode ? (
-          <LightModeIcon onClick={toggle} />
+          <LightModeIcon onClick={toggle} className="icon"/>
         ) : (
-          <DarkModeOutlinedIcon onClick={toggle} />
+          <DarkModeOutlinedIcon onClick={toggle} className="icon"/>
         )}
 
-        <GridViewOutlinedIcon />
+        <GridViewOutlinedIcon className="icon"/>
         <div className="search">
-          <SearchOutlinedIcon />
+          <SearchOutlinedIcon className="icon"/>
           <input type="text" placeholder="Search.." />
         </div>
       </div>
       <div className="right">
-        <PersonOutlineOutlinedIcon />
-        <EmailOutlinedIcon />
-        <NotificationsNoneOutlinedIcon />
+        <PersonOutlineOutlinedIcon className="icon"/>
+        <EmailOutlinedIcon className="icon"/>
+        <NotificationsNoneOutlinedIcon className="icon"/>
         <div className="user">
           <img
             src="https://assets1.ignimgs.com/2016/01/26/rocunnamedjpg-0d75f7_160w.jpg?width=1280"

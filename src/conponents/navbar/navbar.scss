@@ -18,6 +18,10 @@
       justify-content: center;
     }
 
+    .icon{
+      cursor: pointer;
+    }
+
     .left {
       display: flex;
       align-items: center;
@@ -42,6 +46,7 @@
           width: 500px;
           background-color: transparent;
           color: themed("textColor");
+          outline: none;
 
           @include mobile{
             display: none;
